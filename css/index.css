@@ -1,0 +1,32 @@
+@media screen and (min-width: 470px) {
+    #wrapper {
+        width: 100%;
+        margin: 0px auto;
+    }
+    #welBar{
+        margin: 0px;
+        padding: 2% 0%;
+        width: 100%;
+        font-size: 1.6em;
+        line-height: 1.6em;
+
+        background-image: url('../img/welbg.jpg');
+        background-position: center;
+        background-size: auto 400%;
+        background-repeat: no-repeat;
+    }
+    .title{
+        margin: auto 10%;
+        color: white;
+        text-shadow: 2px 2px 10px grey;
+    }
+    #title1{
+        text-align: left;
+    }
+    #title2{
+        text-align: center;
+    }
+    #title3{
+        text-align: right;
+    }
+}
