@@ -1,12 +1,10 @@
-
-
 #wrapper {
     width: 100%;
     margin: 0px auto;
 }
 #welBar{
     margin: 0px;
-    padding: 1em 0%;
+    padding: 2em 0%;
     width: 100%;
     font-size: 1.5em;
     line-height: 1.5em;
@@ -33,7 +31,7 @@
 
 #menu{
     overflow:hidden;
-    margin: 3em auto;
+    margin: 5em auto;
     text-align: center;
     width: 90%;
 }
@@ -102,13 +100,13 @@
 
 #portal{
     background-color: rgb(200,200,200);
-    overflow:hidden;
+    overflow: hidden;
     text-align: center;
     width: 100%;
     margin: 0px auto;
 }
 #portal ul{
-    margin: 1em auto 2em auto;
+    margin: 3em auto 4em auto;
     padding: 0px;
     display: inline-block;
     text-align: left;
@@ -145,4 +143,5 @@
 }
 #footer div{
     margin: 1em auto;
+    font-size: 1.1em;
 }
