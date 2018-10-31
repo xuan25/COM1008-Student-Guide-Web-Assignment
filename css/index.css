@@ -55,7 +55,7 @@
     list-style: none;
 }
 #menu ul li div{
-    border-radius: 0.5em; 
+    border-radius: 0.5em;
 }
 
 @media screen and (max-width: 1245px){
@@ -106,16 +106,13 @@
     text-align: center;
     width: 100%;
     margin: 0px auto;
-    font-size: 1.5em;
-    line-height: 1.5em;
 }
 #portal ul{
-    margin: 1em auto;
+    margin: 1em auto 2em auto;
     padding: 0px;
     display: inline-block;
     text-align: left;
     list-style: none;
-    font-weight: bold;
 }
 #portal ul li{
     float: left;
@@ -128,6 +125,15 @@
     float: none;
     margin: 0px 1em;
     font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#portal ul li ul li:first-child{
+    float: none;
+    margin: 0.5em 1em;
+    font-weight: bold;
+    font-size: 1.6em;
+    line-height: 1.6em;
 }
 #footer{
     float: left;
