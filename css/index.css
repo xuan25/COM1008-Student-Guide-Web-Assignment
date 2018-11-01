@@ -90,10 +90,12 @@
 }
 
 #btn1{
-    background-color: rgb(200,10,10);
+    background-image: url('../img/mapicon.png'); 
 }
 #btn2{
-    background-color: rgb(10,200,10);
+    background-image: url('../img/csicon.png');
+    background-size: auto 105%;
+    background-position: center;
 }
 #btn3{
     background-color: rgb(10,10,200);
