@@ -91,6 +91,8 @@
 
 #btn1{
     background-image: url('../img/mapicon.png'); 
+    background-size: auto 105%;
+    background-position: center;
 }
 #btn2{
     background-image: url('../img/csicon.png');
