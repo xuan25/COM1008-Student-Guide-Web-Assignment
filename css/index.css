@@ -90,9 +90,15 @@
 }
 
 #btn1{
+<<<<<<< HEAD
     background-image: url('../img/mapicon.png');
      background-size: 100% auto;
      background-position: center; 
+=======
+    background-image: url('../img/mapicon.png'); 
+    background-size: auto 105%;
+    background-position: center;
+>>>>>>> feb67f962bd1df43e393a80aaf1d1b801f2782c9
 }
 #btn2{
     background-image: url('../img/csicon.png');
