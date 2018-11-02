@@ -55,6 +55,19 @@
 }
 #menu ul li div{
     border-radius: 0.5em;
+    background-size: 100% auto;
+    background-position: center;
+    height: 100%;
+}
+
+#btn1{
+    background-image: url('../img/mapicon.png');
+}
+#btn2{
+    background-image: url('../img/csicon.png');
+}
+#btn3{
+    background-image: url('../img/assicon.png');
 }
 
 @media screen and (max-width: 1245px){
@@ -87,22 +100,6 @@
         width: 17.5em;
     }
 
-}
-
-#btn1{
-    background-image: url('../img/mapicon.png');
-     background-size: 100% auto;
-     background-position: center; 
-}
-#btn2{
-    background-image: url('../img/csicon.png');
-    background-size: 100% auto;
-    background-position: center;
-}
-#btn3{
-     background-image: url('../img/assicon.png');
-    background-size: 100% auto;
-    background-position: center;
 }
 #portal{
     background-color: rgb(200,200,200);
