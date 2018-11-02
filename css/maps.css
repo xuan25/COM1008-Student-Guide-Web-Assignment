@@ -256,3 +256,13 @@ a:active{
     font-size: 1em;
 }
 }
+
+@media screen and (max-height: 650px){
+#aside{
+    width: 0em;
+    height: 100%;
+}
+#content{
+    padding-left:0em;
+}
+}
