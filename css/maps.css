@@ -1,14 +1,14 @@
 #wrapper {
     width: 100%;
     margin: 0px auto;
-    min-width: 520px;
+    min-width: 320px;
 }
 #fixed{
     position: fixed;
     width: 100%;
     height: 100%;
     pointer-events: none;
-    min-width: 520px;
+    min-width: 320px;
 }
 #banner{
     position: relative;
@@ -39,7 +39,6 @@
     position: relative;
     float: left;
     width: 10em;
-    height: 50%;
     background-color: Aqua;
     height: 100%;
     pointer-events: initial;
@@ -137,4 +136,99 @@ a:hover{
 a:active{
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 960px){
+#banner ul{
+    margin: 1em 0px;
+    width: 90%;
+}
+#banner ul li{
+    width: 30%;
+    font-size: 1em;
+}
+#aside{
+    width: 8em;
+    height: 100%;
+}
+#aside ul li{
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+#content{
+    padding: 3.4em 0px 0px 8em;
+}
+#maps figure div{
+    font-size: 2em;
+    margin: 1em;
+}
+}
+
+@media screen and (max-width: 620px){
+#banner ul{
+    margin: 1em 0px;
+    width: 90%;
+}
+#banner ul li{
+    width: 30%;
+    font-size: 1em;
+}
+#aside{
+    width: 6em;
+    height: 100%;
+}
+#aside ul{
+    padding: 0px 0px 0px 10px;
+}
+#aside ul li{
+    font-size: 1em;
+    line-height: 1em;
+}
+#content{
+    padding: 3.4em 0px 0px 6em;
+}
+#maps figure div{
+    font-size: 1.5em;
+    margin: 1em;
+}
+#footer{
+    font-size: 1em;
+}
+}
+
+@media screen and (max-width: 480px){
+#banner div{
+    margin: 0.5em auto;
+    width: 2em;
+    height: 2em;
+}
+#banner ul{
+    margin: 1em 0px;
+    width: 90%;
+}
+#banner ul li{
+    width: 30%;
+    font-size: 0.7em;
+}
+#aside{
+    width: 5em;
+    height: 100%;
+}
+#aside ul{
+    padding: 0px 0px 0px 10px;
+}
+#aside ul li{
+    font-size: 0.8em;
+    line-height: 1em;
+}
+#content{
+    padding: 3.4em 0px 0px 5em;
+}
+#maps figure div{
+    font-size: 1.5em;
+    margin: 1em;
+}
+#footer{
+    font-size: 1em;
+}
 }
