@@ -69,13 +69,13 @@
     height: 100%;
 }
 #btn1{
-    background-image: url('../img/mapicon.png');
+    background-image: url('../img/map.png');
 }
 #btn2{
-    background-image: url('../img/csicon.png');
+    background-image: url('../img/cs.png');
 }
 #btn3{
-    background-image: url('../img/assicon.png');
+    background-image: url('../img/acc.png');
 }
 #portal{
     background-color: rgb(200,200,200);
