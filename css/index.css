@@ -1,7 +1,7 @@
 #wrapper {
     width: 100%;
     margin: 0px auto;
-    min-width: 460px;
+    min-width: 320px;
 }
 #welBar{
     margin: 0px;
@@ -59,7 +59,6 @@
     background-position: center;
     height: 100%;
 }
-
 #btn1{
     background-image: url('../img/mapicon.png');
 }
@@ -68,38 +67,6 @@
 }
 #btn3{
     background-image: url('../img/assicon.png');
-}
-
-@media screen and (max-width: 1245px){
-    #menu{
-        width: 100%;
-    }
-    #menu ul{
-        padding: 0px 2em;
-    }
-    #menu ul li{
-        margin: 2em 0.5em;
-        height: 6em;
-        width: 8em;
-    }
-}
-
-@media screen and (max-width: 925px){
-    #menu ul li{
-        margin: 1em 0.5em;
-    }
-    #menu{
-        width: 31em;
-        margin: 0em auto;
-    }
-
-}
-
-@media screen and (max-width: 640px){
-    #menu{
-        width: 17.5em;
-    }
-
 }
 #portal{
     background-color: rgb(200,200,200);
@@ -184,7 +151,7 @@
     border-radius: 4px;
 }
 #comment div form textarea{
-    height:100px;
+    height: 100px;
     width: 70%;
     border: 1px solid;
     border-radius: 4px;
@@ -225,4 +192,77 @@ a:hover{
 a:active{
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 1245px){
+    #menu{
+        width: 100%;
+    }
+    #menu ul{
+        padding: 0px 2em;
+    }
+    #menu ul li{
+        margin: 2em 0.5em;
+        height: 6em;
+        width: 8em;
+    }
+}
+@media screen and (max-width: 925px){
+    #menu ul li{
+        margin: 1em 0.5em;
+    }
+    #menu{
+        width: 31em;
+        margin: 0em auto;
+    }
+
+}
+
+
+@media screen and (max-width: 640px){
+#welBar h1{
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+#menu{
+    width: 17.5em;
+}
+#portal ul{
+    margin: 1em auto 2em auto;
+}
+#portal ul li ul li{
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+#portal ul li ul li:first-child{
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+#comment div form {
+    margin: 1em 10%;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: solid;
+}
+#comment div form h1{
+    padding: 0px 0px 5px 10px;
+    font-size: 1.3em;
+}
+#comment div form h2 {
+    padding: 0px 0px 10px 10px;
+    font-size: 1em;
+}
+#comment div form label span {
+    font-size: 0.4em;
+    padding-right: 20px;
+}
+#comment div form input[type="text"]{
+    width: 60%;
+}
+#comment div form textarea{
+    width: 60%;
+}
+#footer{
+    font-size: 1em;
+}
 }
