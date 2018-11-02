@@ -143,14 +143,13 @@
     display: block;
     margin: 20px 0px 5px 0px;
 }
-#comment div form label span {
+#comment div form label div {
     border-bottom: none;
     float: left;
     width: 20%;
     text-align: right;
     padding-right: 10px;
     margin-top: 5px;
-    font-size: 18px;
     font-weight: bold;
 }
 #comment div form input[type="text"]{
@@ -259,8 +258,8 @@ a:active{
     padding: 0px 0px 10px 10px;
     font-size: 1em;
 }
-#comment div form label span {
-    font-size: 12px;
+#comment div form label div {
+    font-size: 0.5em;
     padding-right: 20px;
 }
 #comment div form input[type="text"]{
