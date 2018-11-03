@@ -14,8 +14,9 @@
     position: relative;
     float: left;
     width: 100%;
-    background-color: orange;
+    background-color: rgb(138,153,161);
     pointer-events: initial;
+    font-family:Helvetica;
 }
 #banner div{
     float: left;
@@ -44,7 +45,7 @@
     position: relative;
     float: left;
     width: 10em;
-    background-color: Aqua;
+    background-color: rgb(188,224,247);
     height: 100%;
     pointer-events: initial;
 }
@@ -64,6 +65,7 @@
     font-weight: normal;
     font-size: 1em;
     line-height: 1.3em;
+    font-family:Helvetica;
 }
 #content{
     padding: 3.4em 0px 0px 10em;
@@ -75,12 +77,13 @@
     text-align: center;
     font-size: 3em;
     margin: 1em;
+    font-family:Helvetica;
 }
 #maps figure img{
     width: 100%;
 }
 #portal{
-    background-color: rgb(200,200,200);
+    background-color: rgb(242,242,242);
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -106,6 +109,7 @@
     font-weight: normal;
     font-size: 1.5em;
     line-height: 1.5em;
+    font-family:Helvetica;
 }
 #portal ul li ul li:first-child{
     float: none;
@@ -113,10 +117,11 @@
     font-weight: bold;
     font-size: 1.6em;
     line-height: 1.6em;
+    font-family:Helvetica;
 }
 #footer{
     float: left;
-    background-color: rgb(150,150,150);
+    background-color: rgb(100,100,100);
     text-align: center;
     width: 100%;
     margin: 0px auto;
@@ -125,6 +130,7 @@
 #footer div{
     margin: 1em auto;
     font-size: 1.1em;
+    font-family:Helvetica;
 }
 a:link{
     text-decoration: none;

@@ -10,7 +10,7 @@
     width: 100%;
     font-size: 1.5em;
     line-height: 1.5em;
-    font-family: sans-serif;
+    font-family:Helvetica;
 
     background-image: url('../img/welbg.jpg');
     background-position: center;
@@ -51,6 +51,7 @@
     display: inline-block;
     background-color: rgb(100,100,100);
     border-radius: 10px;
+    box-shadow:0 0 20px 0 rgba(0,0,0,.5),inset 0 0 15px 0 rgba(0,0,0,.5);
 }
 #menu ul li{
     float: left;
@@ -78,7 +79,7 @@
     background-image: url('../img/acc.png');
 }
 #portal{
-    background-color: rgb(200,200,200);
+    background-color: rgb(242,242,242);
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -104,6 +105,7 @@
     font-weight: normal;
     font-size: 1.5em;
     line-height: 1.5em;
+    font-family:Helvetica;
 }
 #portal ul li ul li:first-child{
     float: none;
@@ -111,11 +113,12 @@
     font-weight: bold;
     font-size: 1.6em;
     line-height: 1.6em;
+    font-family:Helvetica;
 }
 #comment{
     margin: 0px auto;
     padding: 2em 0px;
-    background-color: rgb(225,225,225);
+    background-color: rgb(242,242,242);
 }
 #comment div{
     margin: 0px auto;
@@ -151,6 +154,7 @@
     padding-right: 10px;
     margin-top: 5px;
     font-weight: bold;
+    font-family:Helvetica;
 }
 #comment div form input[type="text"]{
     border: 1px solid;
@@ -176,11 +180,12 @@
 }
 #footer{
     float: left;
-    background-color: rgb(150,150,150);
+    background-color: rgb(100,100,100);
     text-align: center;
     width: 100%;
     margin: 0px auto;
     font-size: 1.2em;
+    font-family:Helvetica;
 }
 #footer div{
     margin: 1em auto;
@@ -229,6 +234,7 @@ a:active{
 #welBar h1{
     font-size: 1.2em;
     line-height: 1.2em;
+    font-family:Helvetica;
 }
 #menu{
     width: 17.5em;
@@ -239,10 +245,12 @@ a:active{
 #portal ul li ul li{
     font-size: 1.3em;
     line-height: 1.3em;
+    font-family:Helvetica;
 }
 #portal ul li ul li:first-child{
     font-size: 1.4em;
     line-height: 1.4em;
+    font-family:Helvetica;
 }
 #comment div form {
     margin: 1em 10%;
@@ -253,14 +261,17 @@ a:active{
 #comment div form h1{
     padding: 0px 0px 5px 10px;
     font-size: 1.3em;
+    font-family:Helvetica;
 }
 #comment div form h2 {
     padding: 0px 0px 10px 10px;
     font-size: 1em;
+    font-family:Helvetica;
 }
 #comment div form label div {
     font-size: 0.6em;
     padding-right: 20px;
+    font-family:Helvetica;
 }
 #comment div form input[type="text"]{
     width: 60%;
@@ -270,5 +281,6 @@ a:active{
 }
 #footer{
     font-size: 1em;
+    font-family:Helvetica;
 }
 }
