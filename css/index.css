@@ -2,6 +2,7 @@
     width: 100%;
     margin: 0px auto;
     min-width: 320px;
+    font-family:Helvetica;
 }
 
 #welBar{
@@ -10,7 +11,6 @@
     width: 100%;
     font-size: 1.5em;
     line-height: 1.5em;
-    font-family:Helvetica;
 
     background-image: url('../img/welbg.jpg');
     background-position: center;
@@ -40,7 +40,6 @@
 }
 
 #menu{
-    overflow:hidden;
     margin: 5em auto;
     text-align: center;
     width: 90%;
@@ -105,7 +104,6 @@
     font-weight: normal;
     font-size: 1.5em;
     line-height: 1.5em;
-    font-family:Helvetica;
 }
 #portal ul li ul li:first-child{
     float: none;
@@ -113,7 +111,6 @@
     font-weight: bold;
     font-size: 1.6em;
     line-height: 1.6em;
-    font-family:Helvetica;
 }
 #comment{
     margin: 0px auto;
@@ -154,7 +151,6 @@
     padding-right: 10px;
     margin-top: 5px;
     font-weight: bold;
-    font-family:Helvetica;
 }
 #comment div form input[type="text"]{
     border: 1px solid;
@@ -185,7 +181,7 @@
     width: 100%;
     margin: 0px auto;
     font-size: 1.2em;
-    font-family:Helvetica;
+    color:white;
 }
 #footer div{
     margin: 1em auto;
@@ -231,56 +227,49 @@ a:active{
     }
 }
 @media screen and (max-width: 640px){
-#welBar h1{
-    font-size: 1.2em;
-    line-height: 1.2em;
-    font-family:Helvetica;
-}
-#menu{
-    width: 17.5em;
-}
-#portal ul{
-    margin: 1em auto 2em auto;
-}
-#portal ul li ul li{
-    font-size: 1.3em;
-    line-height: 1.3em;
-    font-family:Helvetica;
-}
-#portal ul li ul li:first-child{
-    font-size: 1.4em;
-    line-height: 1.4em;
-    font-family:Helvetica;
-}
-#comment div form {
-    margin: 1em 10%;
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    border: solid;
-}
-#comment div form h1{
-    padding: 0px 0px 5px 10px;
-    font-size: 1.3em;
-    font-family:Helvetica;
-}
-#comment div form h2 {
-    padding: 0px 0px 10px 10px;
-    font-size: 1em;
-    font-family:Helvetica;
-}
-#comment div form label div {
-    font-size: 0.6em;
-    padding-right: 20px;
-    font-family:Helvetica;
-}
-#comment div form input[type="text"]{
-    width: 60%;
-}
-#comment div form textarea{
-    width: 60%;
-}
-#footer{
-    font-size: 1em;
-    font-family:Helvetica;
-}
+    #welBar h1{
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+    #menu{
+        width: 17.5em;
+    }
+    #portal ul{
+        margin: 1em auto 2em auto;
+    }
+    #portal ul li ul li{
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+    #portal ul li ul li:first-child{
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
+    #comment div form {
+        margin: 1em 10%;
+        padding: 10px 15px 10px 15px;
+        border-radius: 5px;
+        border: solid;
+    }
+    #comment div form h1{
+        padding: 0px 0px 5px 10px;
+        font-size: 1.3em;
+    }
+    #comment div form h2 {
+        padding: 0px 0px 10px 10px;
+        font-size: 1em;
+    }
+    #comment div form label div {
+        font-size: 0.6em;
+        padding-right: 20px;
+    }
+    #comment div form input[type="text"]{
+        width: 60%;
+    }
+    #comment div form textarea{
+        width: 60%;
+    }
+    #footer{
+        font-size: 1em;
+    }
 }
