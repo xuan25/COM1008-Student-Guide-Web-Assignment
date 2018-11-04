@@ -206,6 +206,8 @@ a:active{
         font-size: 1.5em;
         margin: 1em;
     }
+}
+@media screen and (max-width: 620px){
     #portal ul{
         margin: 1em auto 2em auto;
     }
@@ -221,7 +223,6 @@ a:active{
         font-size: 1em;
     }
 }
-
 @media screen and (max-width: 480px){
     #banner div{
         margin: 0.55em auto;

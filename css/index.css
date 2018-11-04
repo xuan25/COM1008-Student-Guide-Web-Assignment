@@ -4,13 +4,12 @@
     min-width: 320px;
     font-family:Helvetica;
 }
-
 #welBar{
     margin: 0px;
-    padding: 2em 0%;
+    padding: 0px;
     width: 100%;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.8em;
+    line-height: 1.8em;
 
     background-image: url('../img/welbg.jpg');
     background-position: center;
@@ -20,12 +19,12 @@
     text-align: center;
     overflow: hidden;
 }
-#welBar>div{
+#titleBar{
     max-width: 1500px;
-    margin: 0px auto;
+    margin: 5em auto;
 }
-#welBar>div>div{
-    margin: auto 10%;
+#titleBar div{
+    margin: auto 5%;
     color: white;
     text-shadow: 2px 2px 10px grey;
 }
@@ -38,9 +37,8 @@
 #title3{
     text-align: right;
 }
-
 #menu{
-    margin: 5em auto;
+    margin: 5em auto 2em auto;
     text-align: center;
     width: 90%;
 }
@@ -54,12 +52,12 @@
 }
 #menu ul li{
     float: left;
-    margin: 2em 2em;
+    margin: 1em 1em;
     height: 6em;
     width: 8em;
     text-align: center;
     line-height: 6em;
-    font-size: 1.5em;
+    font-size: 1em;
     list-style: none;
 
     transition: transform 1s ;
@@ -230,46 +228,44 @@ a:active{
     color: black;
 }
 
-@media screen and (max-width: 1245px){
+@media screen and (max-width: 1300px){
+    #titleBar{
+        margin: 3em auto;
+    }
     #menu{
         width: 100%;
     }
     #menu ul{
-        padding: 0px 2em;
+        padding: 0px 3em;
     }
     #menu ul li{
-        margin: 2em 0.5em;
-        height: 6em;
-        width: 8em;
+        margin: 0.5em 0.5em;
     }
 }
-@media screen and (max-width: 925px){
+@media screen and (max-width: 1050px){
     #menu ul li{
         margin: 1em 0.5em;
     }
     #menu{
-        width: 31em;
+        width: 24em;
         margin: 0em auto;
     }
 }
-@media screen and (max-width: 640px){
+@media screen and (max-width: 710px){
     #welBar h1{
         font-size: 1.2em;
         line-height: 1.2em;
     }
     #menu{
-        width: 17.5em;
+        width: 15em;
     }
-    #portal ul{
-        margin: 1em auto 2em auto;
+    #menu ul{
+        padding: 0px 0.5em;
     }
-    #portal ul li ul li{
-        font-size: 1.3em;
-        line-height: 1.3em;
-    }
-    #portal ul li ul li:first-child{
-        font-size: 1.4em;
-        line-height: 1.4em;
+    #menu ul li{
+        margin: 0.5em;
+        height: 4em;
+        width: 6em;
     }
     #comment div form {
         margin: 1em 10%;
@@ -295,7 +291,25 @@ a:active{
     #comment div form textarea{
         width: 60%;
     }
+}
+@media screen and (max-width: 620px){
+    #portal ul{
+        margin: 1em auto 2em auto;
+    }
+    #portal ul li ul li{
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+    #portal ul li ul li:first-child{
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
     #footer{
         font-size: 1em;
+    }
+}
+@media screen and (max-width: 470px){
+    #menu{
+        width: 8em;
     }
 }
