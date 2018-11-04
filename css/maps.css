@@ -79,6 +79,7 @@
 }
 #maps figure img{
     width: 100%;
+    max-width: 1000px;
 }
 #portal{
     background-color: rgb(242,242,242);
