@@ -88,19 +88,19 @@
     background-image: url('../img/map.png');
 }
 #btn1B{
-    background-image: url('../img/map.png');
+    background-image: url('../img/map-b.png');
 }
 #btn2A{
     background-image: url('../img/cs.png');
 }
 #btn2B{
-    background-image: url('../img/cs.png');
+    background-image: url('../img/cs-b.png');
 }
 #btn3A{
     background-image: url('../img/acc.png');
 }
 #btn3B{
-    background-image: url('../img/acc.png');
+    background-image: url('../img/acc-b.png');
 }
 #portal{
     background-color: rgb(242,242,242);
