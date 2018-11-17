@@ -146,19 +146,35 @@
     margin: 1em auto;
     font-size: 1.1em;
 }
-a:link{
+#fixed a:link{
     text-decoration: none;
     color: black;
 }
-a:visited{
+#fixed a:visited{
     text-decoration: none;
     color: black;
 }
-a:hover{
+#fixed a:hover{
     text-decoration: none;
     color: black;
 }
-a:active{
+#fixed a:active{
+    text-decoration: none;
+    color: black;
+}
+#portal a:link{
+    text-decoration: none;
+    color: black;
+}
+#portal a:visited{
+    text-decoration: none;
+    color: black;
+}
+#portal a:hover{
+    text-decoration: none;
+    color: black;
+}
+#portal a:active{
     text-decoration: none;
     color: black;
 }
