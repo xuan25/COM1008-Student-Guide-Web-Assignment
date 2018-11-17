@@ -41,32 +41,37 @@
     width: 30%;
     font-size: 1.2em;
 }
-#aside{
+#asideA{
     position: relative;
+}
+.aside{
     float: left;
     width: 14em;
     background-color: rgb(188,224,247);
     height: 100%;
     pointer-events: initial;
 }
-#aside div{
+.aside div{
     margin: 1em auto 0.2em auto;
 }
-#aside ul{
+.aside ul{
     list-style: none;
     padding: 0px 0px 0px 20px;
 }
-#aside ul li{
+.aside ul li{
     font-weight: bold;
     font-size: 1.5em;
     line-height: 1.3em;
 }
-#aside ul li ul li{
+.aside ul li ul li{
     list-style: disc;
     font-weight: normal;
     font-size: 1em;
     line-height: 1em;
     padding: 0.2em 0em;
+}
+#asideB{
+    padding-top: 3.4em;
 }
 #content{
     padding: 3.4em 0px 0px 14em;
@@ -160,11 +165,11 @@ a:active{
         width: 30%;
         font-size: 1em;
     }
-    #aside{
+    .aside{
         width: 12em;
         height: 100%;
     }
-    #aside ul li{
+    .aside ul li{
         font-size: 1.2em;
         line-height: 1.2em;
     }
@@ -191,14 +196,14 @@ a:active{
         width: 30%;
         font-size: 1em;
     }
-    #aside{
+    .aside{
         width: 9em;
         height: 100%;
     }
-    #aside ul{
+    .aside ul{
         padding: 0px 0px 0px 10px;
     }
-    #aside ul li{
+    .aside ul li{
         font-size: 1em;
         line-height: 1em;
     }
@@ -240,14 +245,14 @@ a:active{
         width: 30%;
         font-size: 0.7em;
     }
-    #aside{
+    .aside{
         width: 7em;
         height: 100%;
     }
-    #aside ul{
+    .aside ul{
         padding: 0px 0px 0px 10px;
     }
-    #aside ul li{
+    .aside ul li{
         font-size: 0.7em;
         line-height: 1em;
     }
@@ -267,11 +272,11 @@ a:active{
         screen and (min-width: 620px) and (max-height: 760px),
         screen and (min-width: 480px) and (max-height: 640px),
         screen and (max-height: 500px){
-    #aside{
+    #asideA{
         width: 0em;
         height: 100%;
     }
-    #content{
+    /*#content{
         padding-left:0em;
-    }
+    }*/
 }
