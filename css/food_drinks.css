@@ -82,10 +82,12 @@
 #paragraphs>div{
     padding: 1em;
     border-bottom: solid 2px;
+    overflow: hidden;
 }
 #paragraphs img{
     float: right;
     margin: auto 1em;
+    width: 33%;
 }
 #paragraphs p{
     font-size: 1.3em;
