@@ -24,7 +24,7 @@
     height: 3em;
     margin: 0.2em auto;
 
-    background-image: url('../img/home.png');
+    background-image: url('../../img/home.png');
     background-position: center;
     background-size: auto 150%;
     background-repeat: no-repeat;
@@ -76,27 +76,17 @@
 #content{
     padding: 3.4em 0px 0px 14em;
 }
-#paragraphs {
+#maps figure{
+    text-align: center;
+}
+#maps figure div{
+    text-align: center;
+    font-size: 3em;
     margin: 1em;
 }
-#paragraphs>div{
-    padding: 1em;
-    border-bottom: solid 2px;
-    overflow: hidden;
-}
-#paragraphs img{
-    float: right;
-    margin: auto 1em;
-    width: 33%;
-}
-#paragraphs p{
-    font-size: 1.3em;
-    line-height: 1.3em;
-    margin: 1em;
-}
-#paragraphs span{
-    font-size: 1.3em;
-    line-height: 1.3em;
+#maps figure img{
+    width: 100%;
+    max-width: 1000px;
 }
 #portal{
     background-color: rgb(242,242,242);
@@ -146,19 +136,19 @@
     margin: 1em auto;
     font-size: 1.1em;
 }
-.noneStylelink a:link{
+a:link{
     text-decoration: none;
     color: black;
 }
-.noneStylelink a:visited{
+a:visited{
     text-decoration: none;
     color: black;
 }
-.noneStylelink a:hover{
+a:hover{
     text-decoration: none;
     color: black;
 }
-.noneStylelink a:active{
+a:active{
     text-decoration: none;
     color: black;
 }
@@ -185,6 +175,10 @@
     }
     #content{
         padding: 3.4em 0px 0px 12em;
+    }
+    #maps figure div{
+        font-size: 2em;
+        margin: 1em;
     }
 }
 
@@ -216,10 +210,10 @@
     #content{
         padding: 3.4em 0px 0px 9em;
     }
-/*    #maps figure div{
+    #maps figure div{
         font-size: 1.5em;
         margin: 1em;
-    }*/
+    }
 }
 @media screen and (max-width: 620px){
     #portal ul{
@@ -264,6 +258,10 @@
     }
     #content{
         padding: 3.4em 0px 0px 7em;
+    }
+    #maps figure div{
+        font-size: 1.5em;
+        margin: 1em;
     }
     #footer{
         font-size: 1em;

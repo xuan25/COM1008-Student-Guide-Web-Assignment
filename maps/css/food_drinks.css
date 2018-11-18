@@ -24,7 +24,7 @@
     height: 3em;
     margin: 0.2em auto;
 
-    background-image: url('../img/home.png');
+    background-image: url('../../img/home.png');
     background-position: center;
     background-size: auto 150%;
     background-repeat: no-repeat;
@@ -146,37 +146,25 @@
     margin: 1em auto;
     font-size: 1.1em;
 }
-#fixed a:link{
+.noneStylelink a:link{
     text-decoration: none;
     color: black;
 }
-#fixed a:visited{
+.noneStylelink a:visited{
     text-decoration: none;
     color: black;
 }
-#fixed a:hover{
+.noneStylelink a:hover{
     text-decoration: none;
     color: black;
 }
-#fixed a:active{
+.noneStylelink a:active{
     text-decoration: none;
     color: black;
 }
-#portal a:link{
-    text-decoration: none;
-    color: black;
-}
-#portal a:visited{
-    text-decoration: none;
-    color: black;
-}
-#portal a:hover{
-    text-decoration: none;
-    color: black;
-}
-#portal a:active{
-    text-decoration: none;
-    color: black;
+.cleaner{
+    clear: both;
+    margin: 0px;
 }
 
 @media screen and (max-width: 960px){
@@ -232,10 +220,6 @@
     #content{
         padding: 3.4em 0px 0px 9em;
     }
-/*    #maps figure div{
-        font-size: 1.5em;
-        margin: 1em;
-    }*/
 }
 @media screen and (max-width: 620px){
     #portal ul{
