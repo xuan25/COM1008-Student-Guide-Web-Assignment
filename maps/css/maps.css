@@ -152,6 +152,10 @@ a:active{
     text-decoration: none;
     color: black;
 }
+.cleaner{
+    clear: both;
+    margin: 0px;
+}
 
 @media screen and (max-width: 960px){
     #banner div{
