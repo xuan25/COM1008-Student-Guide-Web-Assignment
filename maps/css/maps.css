@@ -4,6 +4,7 @@
     min-width: 430px;
     font-family:Helvetica;
 }
+/*The fixed part*/
 #fixed{
     position: fixed;
     width: 100%;
@@ -11,6 +12,7 @@
     pointer-events: none;
     min-width: 430px;
 }
+/*The banner fixed on the screen*/
 #banner{
     position: relative;
     float: left;
@@ -50,6 +52,7 @@
 #banner ul li:hover{
     background-color: rgb(199,197,135);
 }
+/*asides*/
 #asideA{
     position: relative;
 }
@@ -92,6 +95,7 @@
 #asideB{
     padding-top: 3.4em;
 }
+/*Main content area*/
 #content{
     padding: 3.4em 0px 0px 14em;
 }
@@ -107,6 +111,7 @@
     width: 100%;
     max-width: 1000px;
 }
+/*The portal*/
 #portal{
     background-color: rgb(242,242,242);
     overflow: hidden;
@@ -151,10 +156,12 @@
     font-size: 1.2em;
     color: white;
 }
+/*The footer*/
 #footer div{
     margin: 1em auto;
     font-size: 1.1em;
 }
+/*For links*/
 a:link{
     text-decoration: none;
     color: black;
@@ -171,11 +178,12 @@ a:active{
     text-decoration: none;
     color: black;
 }
+/*Used to clean a full line*/
 .cleaner{
     clear: both;
     margin: 0px;
 }
-
+/*Width smaller than 960*/
 @media screen and (max-width: 960px){
     #banner div{
         margin: 0.05em auto;
@@ -204,7 +212,7 @@ a:active{
         margin: 1em;
     }
 }
-
+/*Width smaller than 620*/
 @media screen and (max-width: 620px){
     #banner div{
         width: 3em;
@@ -238,6 +246,7 @@ a:active{
         margin: 1em;
     }
 }
+/*Width smaller than 620*/
 @media screen and (max-width: 620px){
     #portal ul{
         margin: 1em auto 2em auto;
@@ -254,6 +263,7 @@ a:active{
         font-size: 1em;
     }
 }
+/*Width smaller than 480*/
 @media screen and (max-width: 480px){
     #banner div{
         margin: 0.55em auto;
@@ -291,7 +301,8 @@ a:active{
         font-size: 1em;
     }
 }
-
+/*Hide fixed aside when it's content shows partially.
+    Use the aside which scrolled with the page*/
 @media screen and (min-width: 960px) and (max-height: 970px),
         screen and (min-width: 620px) and (max-height: 760px),
         screen and (min-width: 480px) and (max-height: 640px),

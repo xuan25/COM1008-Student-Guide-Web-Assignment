@@ -4,6 +4,7 @@
     min-width: 320px;
     font-family:Helvetica;
 }
+/*The welcome banner of the home page*/
 #welBar{
     margin: 0px;
     padding: 0px;
@@ -19,6 +20,7 @@
     text-align: center;
     overflow: hidden;
 }
+/*The welcome text*/
 #titleBar{
     max-width: 1500px;
     margin: 5em auto;
@@ -37,6 +39,7 @@
 #title3{
     text-align: right;
 }
+/*Three main functional buttons*/
 #menu{
     margin: 5em auto 2em auto;
     text-align: center;
@@ -102,6 +105,7 @@
 #btn3B{
     background-image: url('../img/acc-b.png');
 }
+/*The portal*/
 #portal{
     background-color: rgb(242,242,242);
     overflow: hidden;
@@ -137,6 +141,7 @@
     font-size: 1.6em;
     line-height: 1.6em;
 }
+/*The message board*/
 #comment{
     margin: 0px auto;
     padding: 2em 0px;
@@ -208,10 +213,12 @@
     font-size: 1.2em;
     color:white;
 }
+/*The footer*/
 #footer div{
     margin: 1em auto;
     font-size: 1.1em;
 }
+/*For Links*/
 a:link{
     text-decoration: none;
     color: black;
@@ -228,11 +235,12 @@ a:active{
     text-decoration: none;
     color: black;
 }
+/*Used to clean a full line*/
 .cleaner{
     clear: both;
     margin: 0px;
 }
-
+/*Width smaller than 1300*/
 @media screen and (max-width: 1300px){
     #titleBar{
         margin: 3em auto;
@@ -247,6 +255,7 @@ a:active{
         margin: 0.5em 0.5em;
     }
 }
+/*Width smaller than 1050*/
 @media screen and (max-width: 1050px){
     #menu ul li{
         margin: 1em 0.5em;
@@ -256,6 +265,7 @@ a:active{
         margin: 0em auto;
     }
 }
+/*Width smaller than 710*/
 @media screen and (max-width: 710px){
     #welBar h1{
         font-size: 1.2em;
@@ -300,6 +310,7 @@ a:active{
         width: 60%;
     }
 }
+/*Width smaller than 620*/
 @media screen and (max-width: 620px){
     #portal ul{
         margin: 1em auto 2em auto;
@@ -316,6 +327,7 @@ a:active{
         font-size: 1em;
     }
 }
+/*Width smaller than 470*/
 @media screen and (max-width: 470px){
     #menu{
         width: 8em;
