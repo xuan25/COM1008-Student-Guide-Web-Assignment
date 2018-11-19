@@ -218,20 +218,20 @@
     margin: 1em auto;
     font-size: 1.1em;
 }
-/*For Links*/
-a:link{
+/*For links with no-style*/
+.noneStylelink a:link{
     text-decoration: none;
     color: black;
 }
-a:visited{
+.noneStylelink a:visited{
     text-decoration: none;
     color: black;
 }
-a:hover{
+.noneStylelink a:hover{
     text-decoration: none;
     color: black;
 }
-a:active{
+.noneStylelink a:active{
     text-decoration: none;
     color: black;
 }

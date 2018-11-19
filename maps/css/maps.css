@@ -162,19 +162,19 @@
     font-size: 1.1em;
 }
 /*For links*/
-a:link{
+.noneStylelink a:link{
     text-decoration: none;
     color: black;
 }
-a:visited{
+.noneStylelink a:visited{
     text-decoration: none;
     color: black;
 }
-a:hover{
+.noneStylelink a:hover{
     text-decoration: none;
     color: black;
 }
-a:active{
+.noneStylelink a:active{
     text-decoration: none;
     color: black;
 }
