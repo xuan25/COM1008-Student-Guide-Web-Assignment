@@ -28,10 +28,14 @@
     background-position: center;
     background-size: auto 150%;
     background-repeat: no-repeat;
+    transition: background-color 0.5s;
+}
+#banner div:hover{
+    background-color: rgb(199,197,135);
 }
 #banner ul{
     float: right;
-    margin: 1em 0px;
+    margin: 0px;
     padding: 0px;
     width: 95%;
 }
@@ -40,6 +44,11 @@
     display: inline-block;
     width: 30%;
     font-size: 1.2em;
+    line-height: 2.8em;
+    transition: background-color 0.5s;
+}
+#banner ul li:hover{
+    background-color: rgb(199,197,135);
 }
 #asideA{
     position: relative;
@@ -69,6 +78,16 @@
     font-size: 1em;
     line-height: 1em;
     padding: 0.2em 0em;
+    transition: background-color 0.3s;
+}
+.aside ul li div{
+    transition: background-color 0.3s;
+}
+.aside ul li div:hover{
+    background-color: rgb(203,174,251);
+}
+.aside ul li ul li:hover{
+    background-color: rgb(203,174,251);
 }
 #asideB{
     padding-top: 3.4em;
@@ -162,12 +181,12 @@ a:active{
         margin: 0.05em auto;
     }
     #banner ul{
-        margin: 1em 0px;
         width: 90%;
     }
     #banner ul li{
         width: 30%;
         font-size: 1em;
+        line-height: 2.9em;
     }
     .aside{
         width: 12em;
@@ -193,12 +212,12 @@ a:active{
         margin: 0.05em auto;
     }
     #banner ul{
-        margin: 1em 0px;
         width: 90%;
     }
     #banner ul li{
         width: 30%;
         font-size: 1em;
+        line-height: 2.9em;
     }
     .aside{
         width: 9em;
@@ -248,6 +267,7 @@ a:active{
     #banner ul li{
         width: 30%;
         font-size: 0.7em;
+        line-height: 0.9em;
     }
     .aside{
         width: 7em;
