@@ -19,6 +19,7 @@
     width: 100%;
     background-color: rgb(67,151,185);
     pointer-events: initial;
+    box-shadow:0 0 20px 0 rgba(20,20,25,.3);
 }
 #banner div{
     float: left;
@@ -62,6 +63,7 @@
     background-color: rgb(248,223,78);
     height: 100%;
     pointer-events: initial;
+    box-shadow:0 0 10px 0 rgba(20,20,25,.3);
 }
 .aside div{
     margin: 1em auto 0.2em auto;
@@ -149,12 +151,11 @@
 }
 #footer{
     float: left;
-    background-color: rgb(100,100,100);
+    background-color: rgb(130,130,135);
     text-align: center;
     width: 100%;
     margin: 0px auto;
     font-size: 1.2em;
-    color: white;
 }
 /*The footer*/
 #footer div{
