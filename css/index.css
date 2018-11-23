@@ -204,6 +204,7 @@
 #comment div form .button:hover{
     background-color: #EBEBEB;
 }
+/*The footer*/
 #footer{
     float: left;
     background-color: rgb(100,100,100);
@@ -213,7 +214,6 @@
     font-size: 1.2em;
     color:white;
 }
-/*The footer*/
 #footer div{
     margin: 1em auto;
     font-size: 1.1em;

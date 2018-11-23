@@ -23,7 +23,11 @@
             <div class="aside noneStylelink" id="asideA">
                 <ul>
                     <li>
-                        <div><a href="">Contact</a></div>
+                        <div><a href="index.html">Contact</a></div>
+                        <ul>
+                            <li><a href="index.html#E-mail">E-mail</a></li>
+                            <li><a href="index.html#comment">Message board</a></li>
+                        </ul>
                     </li>
                     <div class="cleaner"></div>
                 </ul>
@@ -33,7 +37,11 @@
         <div class="aside noneStylelink" id="asideB">
             <ul>
                 <li>
-                    <div><a href="">Contact</a></div>
+                    <div><a href="index.html">Contact</a></div>
+                    <ul>
+                        <li><a href="index.html#E-mail">E-mail</a></li>
+                        <li><a href="index.html#comment">Message board</a></li>
+                    </ul>
                 </li>
                 <div class="cleaner"></div>
             </ul>
@@ -43,20 +51,47 @@
             <div id="paragraphs">
                 <div id="Accessibility">
                     <p>
-                        <span>Contact</span><br/><br/>
+                        <span>Contact</span><br><br>
                         If you get some question want to discuss with us, just e-mail us!
                     </p>
                 </div>
-                <div id="Accessibility">
+                <div id="E-mail">
                     <p>
-                        <span>E-mail</span><br/><br/>
+                        <br><span>E-mail</span><br><br>
                         <ul>
                     		<li>Boxuan Shan:1798462438@qq.com</li>
                     		<li>Jingxiang Qi:1037350517@qq.com</li>
                 		</ul>
                     </p>
                 </div>
+                <!-- The message board -->
+                <div id="comment">
+                    <br>
+                    <div>
+                        <form method="post" action="mailto:1798462438@qq.com?cc=1037350517@qq.com&subject=Feedback of Student Guide web page">
+                            <h1>Message board</h1>
+                            <h2>leave your message here</h2>
+                            <label>
+                                <div>Name: </div>
+                                <input id="msgTitle" type="text" name="title" />
+                            </label>
+                            <label>
+                                <div>Email: </div>
+                                <input id="msgName" type="text" name="name"/>
+                            </label>
+                            <label>
+                                <div>Message: </div>
+                                <textarea id="msgContent" name="content"></textarea>
+                            </label>
+                            <label>
+                                <div></div>
+                                <input type="submit" class="button" value="Send"/>
+                            </label>
+                        </form>
+                    </div>
+                </div>
             </div>
+
             <!-- The portal -->
             <div class="noneStylelink" id="portal">
                 <ul>
