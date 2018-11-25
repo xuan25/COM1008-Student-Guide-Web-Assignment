@@ -1,3 +1,4 @@
+//Send comment
 function send() {
     //convert to base64
     document.getElementById('msgTitle').value = btoa(document.getElementById('msgTitle').value);

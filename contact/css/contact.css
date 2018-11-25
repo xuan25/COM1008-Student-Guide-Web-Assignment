@@ -256,8 +256,8 @@
     clear: both;
     margin: 0px;
 }
-/*Width smaller than 960*/
-@media screen and (max-width: 960px){
+/*Width smaller than 980*/
+@media screen and (max-width: 980px){
     #banner div{
         margin: 0.05em auto;
     }
@@ -281,8 +281,8 @@
         padding: 3.4em 0px 0px 12em;
     }
 }
-/*Width smaller than 710*/
-@media screen and (max-width: 710px){
+/*Width smaller than 730*/
+@media screen and (max-width: 730px){
     #comment div form {
         margin: 1em 10%;
         padding: 10px 15px 10px 15px;
@@ -308,8 +308,8 @@
         width: 60%;
     }
 }
-/*Width smaller than 620*/
-@media screen and (max-width: 620px){
+/*Width smaller than 640*/
+@media screen and (max-width: 640px){
     #banner div{
         width: 3em;
         height: 3em;
@@ -338,8 +338,8 @@
         padding: 3.4em 0px 0px 9em;
     }
 }
-/*Width smaller than 620*/
-@media screen and (max-width: 620px){
+/*Width smaller than 640*/
+@media screen and (max-width: 640px){
     #portal ul{
         margin: 1em auto 2em auto;
     }
@@ -355,8 +355,8 @@
         font-size: 1em;
     }
 }
-/*Width smaller than 480*/
-@media screen and (max-width: 480px){
+/*Width smaller than 500*/
+@media screen and (max-width: 500px){
     #banner div{
         margin: 0.55em auto;
         width: 2em;
@@ -391,10 +391,10 @@
 }
 /*Hide fixed aside when it's content shows partially.
     Use the aside which scrolled with the page*/
-@media screen and (min-width: 960px) and (max-height: 970px),
-        screen and (min-width: 620px) and (max-height: 760px),
-        screen and (min-width: 480px) and (max-height: 640px),
-        screen and (max-height: 500px){
+@media screen and (min-width: 960px) and (max-height: 190px),
+        screen and (min-width: 620px) and (max-height: 170px),
+        screen and (min-width: 480px) and (max-height: 150px),
+        screen and (max-height: 130px){
     #asideA{
         width: 0em;
         height: 100%;

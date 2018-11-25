@@ -184,8 +184,8 @@
     clear: both;
     margin: 0px;
 }
-/*Width smaller than 960*/
-@media screen and (max-width: 960px){
+/*Width smaller than 980*/
+@media screen and (max-width: 980px){
     #banner div{
         margin: 0.05em auto;
     }
@@ -213,8 +213,8 @@
         margin: 1em;
     }
 }
-/*Width smaller than 620*/
-@media screen and (max-width: 620px){
+/*Width smaller than 640*/
+@media screen and (max-width: 640px){
     #banner div{
         width: 3em;
         height: 3em;
@@ -247,8 +247,8 @@
         margin: 1em;
     }
 }
-/*Width smaller than 620*/
-@media screen and (max-width: 620px){
+/*Width smaller than 640*/
+@media screen and (max-width: 640px){
     #portal ul{
         margin: 1em auto 2em auto;
     }
@@ -264,8 +264,8 @@
         font-size: 1em;
     }
 }
-/*Width smaller than 480*/
-@media screen and (max-width: 480px){
+/*Width smaller than 500*/
+@media screen and (max-width: 500px){
     #banner div{
         margin: 0.55em auto;
         width: 2em;
@@ -304,10 +304,10 @@
 }
 /*Hide fixed aside when it's content shows partially.
     Use the aside which scrolled with the page*/
-@media screen and (min-width: 960px) and (max-height: 970px),
-        screen and (min-width: 620px) and (max-height: 760px),
-        screen and (min-width: 480px) and (max-height: 640px),
-        screen and (max-height: 500px){
+@media screen and (min-width: 960px) and (max-height: 820px),
+        screen and (min-width: 620px) and (max-height: 660px),
+        screen and (min-width: 480px) and (max-height: 560px),
+        screen and (max-height: 440px){
     #asideA{
         width: 0em;
         height: 100%;
