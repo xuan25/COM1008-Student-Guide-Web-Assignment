@@ -264,8 +264,8 @@
         margin: 0em auto;
     }
 }
-/*Width smaller than 710*/
-@media screen and (max-width: 710px){
+/*Width smaller than 730*/
+@media screen and (max-width: 730px){
     #welBar h1{
         font-size: 1.2em;
         line-height: 1.2em;
@@ -309,8 +309,8 @@
         width: 60%;
     }
 }
-/*Width smaller than 620*/
-@media screen and (max-width: 620px){
+/*Width smaller than 640*/
+@media screen and (max-width: 640px){
     #portal ul{
         margin: 1em auto 2em auto;
     }
@@ -326,8 +326,8 @@
         font-size: 1em;
     }
 }
-/*Width smaller than 470*/
-@media screen and (max-width: 470px){
+/*Width smaller than 490*/
+@media screen and (max-width: 490px){
     #menu{
         width: 8em;
     }
